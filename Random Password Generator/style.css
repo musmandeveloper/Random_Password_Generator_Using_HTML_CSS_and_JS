@@ -1,0 +1,137 @@
+
+body {
+    background-color: rgb(253, 187, 132); 
+    font-family: "Sans-Serif", "Arial" ; 
+    margin: 0 0;
+}
+
+.pswd-gen {
+    background-color: rgb(152, 240, 240);
+    width: 500px;
+    height: 500px;
+    margin: 5% 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.pswd-gen header {
+    /* background-color: blueviolet; */
+    color: #000;
+    font-size: 24;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pswd-gen-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    /* background-color: rgb(240, 116, 213); */
+    margin-bottom: 20px;
+}
+
+.output-with-copy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.pswd-output {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    width: 230px;
+    height: 30px;
+    border: none;
+}
+
+.pswd-copy-btn {
+    color: #fff;
+    background-color: #4caf50;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    width: 70px;
+    height: 33px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.pswd-reqmnts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    /* background-color: darkorange; */
+}
+
+.pswd-length {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.pswd-length input {
+    width: 200px;
+    height: 20px;
+}
+
+.pswd-length p {
+    width: 100px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    /* background-color: #c9c6c6; */
+}
+
+.pswd-options {
+    margin: 0px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* background-color: brown; */
+}
+
+.pswd-option {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    background-color: #c9c6c6;
+}
+
+.pswd-option span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pswd-gen-btn {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #4caf50;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="pswd-gen">
+        <header>
+            <h1>Password Generator</h1>
+        </header>
+        <div class="pswd-gen-content">
+            <div class="output-with-copy">
+                <input class="pswd-output" type="text">
+                <button class="pswd-copy-btn">Copy</button>
+            </div>
+            <div class="pswd-reqmnts">
+                <div class="pswd-length">
+                    <input type="range" value="8" min="5" max="30">
+                    <p>8 Chars Min</p>
+                </div>
+                <div class="pswd-options">
+                    <div class="pswd-option">
+                        <input id="uppercase" type="checkbox" value="A-Z">
+                        <span>A-Z</span>
+                    </div>
+                    <div class="pswd-option">
+                        <input id="lowercase" type="checkbox" value="a-z">
+                        <span>a-z</span>
+                    </div>
+                    <div class="pswd-option">
+                        <input id="digits" type="checkbox" value="0-9">
+                        <span>0-9</span>
+                    </div>
+                    <div class="pswd-option">
+                        <input id="symbols" type="checkbox" value="!@#$%^&">
+                        <span>Symbols</span>
+                    </div>
+                </div>
+            </div>
+            <button class="pswd-gen-btn">Generate</button>
+        </div>   
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
